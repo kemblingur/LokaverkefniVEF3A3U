@@ -1,0 +1,28 @@
+<div class="row" ng-hide="contact._id">
+  <div class="col-md-6">
+      <h2>Stofna nýjan tengilið</h2>
+  </div>
+</div>
+<div class="container">
+  <div>
+    <p>
+      <label>Nafn</label> 
+      <input id="name" class="form-control" type="text" ng-model="contact.firstName" required> 
+    </p>
+    <p>
+      <label>Netfang</label> 
+      <input id="name" class="form-control" type="text" ng-model="contact.email" required> 
+    </p>
+    <p>
+      <label>Símanúmer</label> 
+      <input id="name" class="form-control" type="text" ng-model="contact.phone.mobile"> 
+    </p>
+    <p>
+      <label>Heimilisfang</label> 
+      <input id="name" class="form-control" type="text" ng-model="contact.address"> 
+    </p>
+    <p>
+      <button style="margin-top:20px" class="btn btn-default" ng-click="saveContact(contact)">Vista tengilið</button>
+    </p>
+  </div>
+</div>

@@ -1,0 +1,18 @@
+{
+  "name": "VEF3A3U",
+  "version": "1.0.0",
+  "description": "Lokaverkefni í VEF3A3U",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kemblingur/LokaverkefniVEF3A3U"
+  },
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "mongodb": "^2.0.43"
+  }
+}

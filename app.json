@@ -1,0 +1,6 @@
+{
+  "name": "VEF3A3U",
+  "description": "Lokaverkefni í VEF3A3U",
+  "repository": "https://github.com/kemblingur/LokaverkefniVEF3A3U",
+  "addons": ["mongolab"]
+}
